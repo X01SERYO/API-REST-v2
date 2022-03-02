@@ -1,4 +1,7 @@
 import store from "./store";
+/*
+* @class {tipo} {nombre}
+*/
 
 const handle = async (cmd) => {
   const date = cmd.date;
