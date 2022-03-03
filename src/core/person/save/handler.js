@@ -1,8 +1,10 @@
 import store from "./store";
-/*
-* @class {tipo} {nombre}
-*/
 
+/**
+ * 
+ * @param {*} cmd 
+ * @returns 
+ */
 const handle = async (cmd) => {
   const date = cmd.date;
   const document = cmd.document;
